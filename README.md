@@ -70,21 +70,32 @@ Identity Law A ⋅ 1 = A, A + 0 = A Null Law A ⋅ 0 = 0, A + 1 = 1 Idempotent L
 
 
 **Program:**
+
 i)
 
 module funct1(a,b,c,d,f1);
+
 input a,b,c,d;
+
 output f1;
+
 assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+
 endmodule
+
 
 ii)
 
 module funct2(w,x,y,z,f2);
+
 input w,x,y,z;
+
 output f2;
+
 assign f2=((~y & z)|( w & y )|(x & y));
+
 endmodule
+
 
 Developed by: K MONISHWAR RegisterNumber: 25014914
 
@@ -92,6 +103,7 @@ Developed by: K MONISHWAR RegisterNumber: 25014914
 **RTL realization**
 
 **Output:**
+
 1)
 
 <img width="1235" height="582" alt="Screenshot 2025-11-26 212618" src="https://github.com/user-attachments/assets/366dccf7-0b74-4ec6-9db2-ed4cc8773d1f" />
@@ -103,9 +115,11 @@ Developed by: K MONISHWAR RegisterNumber: 25014914
 
 
 **Timing Diagram**
+
 1)
 
 <img width="1281" height="717" alt="Screenshot 2025-11-26 213136" src="https://github.com/user-attachments/assets/4384d5c3-654a-4896-834e-3c7b596b1480" />
+
 2)
 
 <img width="1279" height="679" alt="Screenshot 2025-11-26 213202" src="https://github.com/user-attachments/assets/7452ffdb-7776-4403-b3b9-b6f043737f8c" />
